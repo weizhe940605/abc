@@ -1,0 +1,36 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    # 每天 04:00 UTC 执行
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream remote
+        run: git remote add upstream https://github.com/5d5d5f5f5f/abc.git
+
+      - name: Fetch upstream
+        run: git fetch upstream main
+
+      - name: Fast-forward merge
+        run: git merge --ff-only upstream/main
+
+      - name: Push changes
+        run: git push origin main
