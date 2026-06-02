@@ -1,0 +1,24 @@
+  worker抖音直播
+
+  部署JS完成后
+ 
+  如域名是：123.xyz
+ 
+  官网直播间房间号是：137995681287
+
+  播放链接：https://123.xyz/137995681287
+
+  具体房间号，或自己需要的房间号，官网自行查询
+  
+  官网：https://www.douyin.com
+
+  如官网播放某直播间链接是：
+  
+   https://live.douyin.com/897192334927?from_search=true&is_aweme_tied=1&search_id=20260531205600FC6CFCFCB5A557F6CD72&search_result_id=7646025496093936942
+
+  房间号就是：897192334927
+
+
+  每个房间号播放链接即是：域名/房间号
+
+  
