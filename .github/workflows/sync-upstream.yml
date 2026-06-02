@@ -29,8 +29,8 @@ jobs:
       - name: Fetch upstream
         run: git fetch upstream main
 
-      - name: Fast-forward merge
-        run: git merge --ff-only upstream/main
+      - name: Merge upstream (优先使用上游版本)
+        run: git merge -X theirs upstream/main
 
       - name: Push changes
         run: git push origin main
