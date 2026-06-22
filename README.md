@@ -1,6 +1,9 @@
+## TXT  免workers部署 ， 小白测试链接： https://2121.ccwu.cc
+## 聚合搜索 免workers部署 ， 小白测试链接： https://9810.ccwu.cc
 ## Mitv 免workers部署 ， 小白测试链接： https://itv.tv1288.xyz
 
 ## 夸克网盘免费扩容1TB：https://pan.quark.cn/s/24e7633bbfaf
+## 临时聊天群：http://45.192.97.170:8103
 -----------------
 ## 不同文件夹JS访问：变量值说明
 【TXT M3U 同一个变量值】，
