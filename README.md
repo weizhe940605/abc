@@ -1,30 +1,9 @@
-## ~~(已失效)原变量如/abc123~~
-## 所有 JS文件部署后 需要变量值访问的 现统一为：/xymm 访问显示Forbidden或者其他提示 因链接后缀需要添加变量 示例访问链接：https://域名/xymm
-## 统一变量 方便管理 变量更换是防止有人倒卖 (变量更换无需重新部署JS脚本)
-### JS 文件 运行环境选择：
-### 【1】https://console.deno.com （点击开始 New Playground ）
-### 【2】https://dash.cloudflare.com  (点击开始---- Workers 和 Pages---从 Hello World 开始 )
-## JS代码复制后：在worker代码编辑时键盘按下快捷键 ctrl+v  进行快速粘贴
+## ~~TXT 和 M3U取消变量值访问~~  修改时间：0903  22:30
+## Mitv保留变量值：/xymm 访问显示Forbidden或者其他提示 因链接后缀需要添加变量 示例访问链接：https://域名/xymm
+### 注：TXT和M3U需重新部署脚本，访问域名即可
 
 
 
-## 【一键命令 
-docker run -d -p 6001:6001 --name migu2026 qqt8520/migu2026:1.0
-
-或者是：
-
-docker run -d \
--p 6001:6001 \
---name migu2026 \
-qqt8520/migu2026:1.0
-
-解决非大陆服务器不能部署问题 访问方式： 部署后自己服务器IP+端口/频道id
-
-如： CCTV2,http://115.58.151.196:1234/631780532
-
-改成自己服务器：CCTV2,http://服务器IP:6001/631780532
-
-全频道参考：http://47.100.209.208:20002 】
 
 ## 聚合搜索 免workers部署 ， 小白测试链接： https://9810.ccwu.cc
 
