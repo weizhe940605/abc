@@ -12,6 +12,9 @@ https://xymm.tv12.xyz/live.txt=你的授权码
 
 https://xymm.tv12.xyz/live.m3u=你的授权码
 
+# 例如：https://xymm.tv12.xyz/live.txt=123456
+
+
 🔑 授权码领取：
 
 http://45.192.97.170:5222/2
