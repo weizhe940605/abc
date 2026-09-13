@@ -1,3 +1,4 @@
+#  mitv 该组脚本使用的API接口，因API到期，月底清零(9月30日)，届时 脚本JS下架清空
 #  酒店源自动更新：
 
 https://xymm.1000s.dpdns.org
